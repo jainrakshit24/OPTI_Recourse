@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Dec  9 21:15:47 2024
 
-@author: Admin
-"""
 
 import joblib
 import numpy as np
@@ -11,7 +6,7 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 
 
-model_data = joblib.load(r"project-root/model/model_data.pkl")
+model_data = joblib.load(r"model/model_data.pkl")
 model_data
 
 
