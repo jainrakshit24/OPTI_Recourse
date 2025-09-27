@@ -1,10 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Dec 10 13:29:38 2024
-Enhanced Credit Risk Modeling Application
 
-@author: Admin
-"""
 
 import streamlit as st
 from utils import predict
@@ -396,6 +391,6 @@ st.markdown("""
 <div style="background: linear-gradient(90deg, #1e3c72 0%, #2a5298 100%); 
             color: white; padding: 2rem; border-radius: 15px; margin-top: 3rem; text-align: center;">
     <h4>🚀 Advanced Credit Risk Modeling Platform</h4>
-    <p>By - Rakshit Jain | Secure & Reliable | Real-time Analysis</p>
+    <p>By - Rakshit Jain and Ram Sagar | Secure & Reliable | Real-time Analysis</p>
 </div>
 """, unsafe_allow_html=True)
